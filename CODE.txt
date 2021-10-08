@@ -1,0 +1,12 @@
+num1 = int(input("Type a number, bud: "))
+
+if num1 % 11 == 0:
+    print("a")
+elif num1 % 9 == 0:
+    print("b")
+elif num1 % 7 == 0:
+    print("c")
+elif num1 % 2 == 0:
+    print("d")
+else:
+    print("e")
